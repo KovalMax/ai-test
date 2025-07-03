@@ -20,9 +20,12 @@ import { vertexAI } from '@genkit-ai/vertexai';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  // ...
-  projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-  // ...
+  apiKey: "AIzaSyDdS9kYJpRWpzyCeEhxUuTBT0cobcqHGHY",
+  authDomain: "compass-app-43428.firebaseapp.com",
+  projectId: "compass-app-43428",
+  storageBucket: "compass-app-43428.firebasestorage.app",
+  messagingSenderId: "338268637983",
+  appId: "1:338268637983:web:de792424129bf2e598fe2a"
 };
 
 export const getProjectId = () => firebaseConfig.projectId;
