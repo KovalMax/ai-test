@@ -36,7 +36,7 @@ export const ai = genkit({
   plugins: [
     vertexAI({
       projectId: getProjectId(),
-      location: 'us-central1',
+      location: 'europe-west3',
     }),
   ],
 });
